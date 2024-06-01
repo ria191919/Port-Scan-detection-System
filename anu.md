@@ -1,7 +1,9 @@
 # Spans vs Taps Role in Packet Analysis (White Paper)
 
-<p style="margin-bottom: 20px; margin-left: 100px;"><img src="./images for md file/img1.png" alt="ex" width="150"height="232"> <img src="./images for md file/img2.png" alt="ex" width="150"></p>
-
+<p style="margin-bottom: 20px; margin-left: 100px;">
+  <img src="./images for md file/img1.png" alt="ex" width="150" height="232">
+  <img src="./images for md file/img2.png" alt="ex" width="150">
+</p>
 
 - Network taps: Physical devices capturing all traffic on a network segment.
 - SPANs: Copy specific port traffic to a monitoring port on switches or routers.
