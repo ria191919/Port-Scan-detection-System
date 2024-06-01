@@ -1,5 +1,8 @@
 # Spans vs Taps Role in Packet Analysis (White Paper)
 
+<p style="margin-bottom: 20px; margin-left: 100px;"><img src="./images for md file/img1.png" alt="ex" width="150"height="232"> <img src="./images for md file/img2.png" alt="ex" width="150"></p>
+
+
 - Network taps: Physical devices capturing all traffic on a network segment.
 - SPANs: Copy specific port traffic to a monitoring port on switches or routers.
 - Both aim to facilitate PCAP analysis but in different ways.
@@ -32,10 +35,19 @@
 - A total of sixteen test scenarios were implemented in the testing phase.
 - Fuzzy terms were mentioned as Normal, Suspicious, and Attack in a short, middle, and longer period.
 - The guidelines on which it is further determined whether to classify an IP as scanner IPs, suspicious IPs and valid customers are shown with a mathematical perception under:
+
+<p style="margin-bottom: 20px; margin-left: 100px;"> <img src="./images for md file/img3.png" alt="ex" width="400"> </p>
+
+
 - The time gap of four seconds, four minutes, and six minutes is taken as a threshold value.
 - Now Profiler filters out every day and suspicious packets on the premise of LTP (Long Term Profiler) and the STP (Short Term Profiler).
 - After that, the Anomaly Detector decides on the idea of experiment sports which ones are the fast scans and which ones must be marked as gradual scans.
 - Stealthy scans are captured on the premise of a threshold as low as the edge is as excessive as the accuracy is.
+
+
+<p style=" margin-top: 50px; margin-bottom: 40px; margin-left: 100px;"> <img src="./images for md file/img4.png" alt="ex" width="400"> </p>
+
+
 - Each terminal is now linked to the Linux shell of each VM and on the routers, the software protocols are enabled.
 - On the other side, we made the victim machine vulnerable by disabling SELinux on Linux Operating System and the other victim machine that is running on Windows XP is also made vulnerable by switching off its firewall.
 - The GNS3 network simulator makes it easy to capture and view data that is flowing between the interfaces of devices running on its simulation.However, on Virtual Box, the data is captured.
@@ -65,7 +77,16 @@ Mentioned features are important to gather while implementing the scanning filte
 
 ## Scanning Filter
 
----
+<p style=" margin-top: 50px; margin-bottom: 40px; margin-left: 100px;"> <img src="./images for md file/img5.png" alt="ex" width="400"> </p>
+
+<p style=" margin-top: 50px; margin-bottom: 40px; margin-left: 100px;"> <img src="./images for md file/img6.png" alt="ex" width="400"> </p>
+
+<p style=" margin-top: 50px; margin-bottom: 40px; margin-left: 100px;"> <img src="./images for md file/img7.png" alt="ex" width="400"> </p>
+
+<p style=" margin-top: 50px; margin-bottom: 40px; margin-left: 100px;"> <img src="./images for md file/img8.png" alt="ex" width="400"> </p>
+
+<p style=" margin-top: 50px; margin-bottom: 40px; margin-left: 100px;"> <img src="./images for md file/img9.png" alt="ex" width="400"> </p>
+
 
 ## Detection Filter
 
@@ -74,6 +95,10 @@ Detection filter is responsible for the identification of the type of scans perf
 1. Fast Scan: Fast port scans are characterized by a simple feature, these types of scan attacks try to connect too many targets in a smaller period of duration. Fast Scan is easiest to be detected because the attempts made by the same IP are higher in number and are performed one after another with the time gap of only 30 seconds.
 2. Slow Scan: The main contribution of this research work is to identify the slow port scan attacks. The slow port scan attacks can be identified by examining the specific IP’s behavior over a large time frame, for instance, one hour. The difficulty of detecting the slow port scan attack is the uncertainty of these types of scan attempts, there is no standard of judgment about slow port scan attacks. An attacker may send a scanning probe by the difference of 10 sec, 20 sec or 1 day.
 
----
+<p style=" margin-top: 50px; margin-bottom: 40px; margin-left: 100px;"> <img src="./images for md file/img10.png" alt="ex" width="400"> </p>
+<p style=" margin-top: 50px; margin-bottom: 40px; margin-left: 100px;"> <img src="./images for md file/img11.png" alt="ex" width="400"> </p>
+<p style=" margin-top: 50px; margin-bottom: 40px; margin-left: 100px;"> <img src="./images for md file/img12.png" alt="ex" width="400"> </p>
 
 The table shows the comparison of the previous scan detector’s duration gap results as compared to the proposed system. Using the Nmap tool, 13 different types of scan activities have done in a victim machine from the attacker machine. Scan type shows different types of scan details. The third column shows the time taken for scan activities(in sec).
+
+<p style=" margin-top: 50px; margin-bottom: 40px; margin-left: 100px;"> <img src="./images for md file/img13.png" alt="ex" width="400"> </p>
