@@ -101,9 +101,4 @@ Detection filter is responsible for the identification of the type of scans perf
 
 The table shows the comparison of the previous scan detector’s duration gap results as compared to the proposed system. Using the Nmap tool, 13 different types of scan activities have done in a victim machine from the attacker machine. Scan type shows different types of scan details. The third column shows the time taken for scan activities(in sec).
 
-<<<<<<< HEAD
 <p style=" margin-top: 50px; margin-bottom: 40px; margin-left: 100px;"> <img src="./images for md file/img13.png" alt="ex" width="400"> </p>
-=======
-<p style=" margin-top: 50px; margin-bottom: 40px; margin-left: 100px;"> <img src="./images for md file/img13.png" alt="ex" width="400"> </p>
-
->>>>>>> 848e578a75c60a24ebb83e575f7fb623b1d2ee29
